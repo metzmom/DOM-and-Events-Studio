@@ -62,7 +62,7 @@ window.addEventListener("load", function() {
     const abortMission = window.confirm(msg);
     if (abortMission) {
       flightStatus.innerHTML = "Mission aborted";
-      shuttleBackground.style.backgroundColor = "green";
+      shuttleBackground.style.backgroundColor = "red";
       shuttleHeight.innerHTML = 0;
     }
   });
